@@ -1,0 +1,922 @@
+{
+  "clinicas": [
+    {
+      "id": 2,
+      "nome": "São Paulo",
+      "titulo": "Clínica Médica",
+      "endereco": {
+        "numero": "123",
+        "rua": "Av. Paulista",
+        "bairro": "Bela Vista",
+        "cidade": "São Paulo",
+        "uf": "SP",
+        "cep": "01310-000",
+        "geo": {
+          "lat": -23.5639876,
+          "lng": -46.6547491
+        }
+      },
+      "imagem_url": [
+        "https://cdn1.vectorstock.com/i/1000x1000/38/25/cartoon-hospital-building-emergency-clinic-vector-24613825.jpg"
+      ],
+      "contato": {
+        "telefone": "1122334455",
+        "website": "https://www.clinicasaopaulo.com.br/"
+      },
+      "especialidades": [
+        "Clínica Geral",
+        "Cardiologia",
+        "Dermatologia"
+      ],
+      "convenios_aceitos": [
+        "Bradesco Saúde",
+        "SulAmérica Saúde"
+      ],
+      "avaliacao": 4.5
+    },
+    {
+      "id": 3,
+      "nome": "Santa Maria",
+      "titulo": "Hospital",
+      "endereco": {
+        "numero": "789",
+        "rua": "R. Santa Clara",
+        "bairro": "Centro",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ",
+        "cep": "20030-030",
+        "geo": {
+          "lat": -22.9083135,
+          "lng": -43.1802195
+        }
+      },
+      "imagem_url": [
+        "https://cdn1.vectorstock.com/i/1000x1000/38/25/cartoon-hospital-building-emergency-clinic-vector-24613825.jpg"
+      ],
+      "contato": {
+        "telefone": "2123456789",
+        "website": "https://www.hospitalsantamaria.com.br/"
+      },
+      "especialidades": [
+        "Ortopedia",
+        "Pediatria",
+        "Neurologia"
+      ],
+      "convenios_aceitos": [
+        "Amil",
+        "Unimed"
+      ],
+      "avaliacao": 4.8
+    },
+    {
+      "id": 6,
+      "nome": "Bem-Estar",
+      "titulo": "Clínica de Saúde",
+      "endereco": {
+        "numero": "200",
+        "rua": "Av. Paulista",
+        "bairro": "Jardins",
+        "cidade": "São Paulo",
+        "uf": "SP",
+        "cep": "01400-000",
+        "geo": {
+          "lat": -23.566248,
+          "lng": -46.653804
+        }
+      },
+      "imagem_url": [
+        "https://cdn1.vectorstock.com/i/1000x1000/38/25/cartoon-hospital-building-emergency-clinic-vector-24613825.jpg"
+      ],
+      "contato": {
+        "telefone": "1133225544",
+        "website": "https://www.clinicabemestar.com.br/"
+      },
+      "especialidades": [
+        "Clínica Geral",
+        "Psicologia",
+        "Nutrição"
+      ],
+      "convenios_aceitos": [
+        "SulAmérica Saúde",
+        "Golden Cross"
+      ],
+      "avaliacao": 4.4
+    },
+    {
+      "id": 7,
+      "nome": "São Lucas",
+      "titulo": "Hospital",
+      "endereco": {
+        "numero": "1500",
+        "rua": "R. da Saúde",
+        "bairro": "Vila Mariana",
+        "cidade": "São Paulo",
+        "uf": "SP",
+        "cep": "04144-000",
+        "geo": {
+          "lat": -23.608765,
+          "lng": -46.632954
+        }
+      },
+      "imagem_url": [
+        "https://cdn1.vectorstock.com/i/1000x1000/38/25/cartoon-hospital-building-emergency-clinic-vector-24613825.jpg"
+      ],
+      "contato": {
+        "telefone": "1123456789",
+        "website": "https://www.hospitalsaolucas.com.br/"
+      },
+      "especialidades": [
+        "Cardiologia",
+        "Cirurgia",
+        "Neurologia"
+      ],
+      "convenios_aceitos": [
+        "Amil",
+        "Unimed"
+      ],
+      "avaliacao": 4.7
+    },
+    {
+      "id": 8,
+      "nome": "Vida Saudável",
+      "titulo": "Clínica de Bem-Estar",
+      "endereco": {
+        "numero": "300",
+        "rua": "Av. Copacabana",
+        "bairro": "Copacabana",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ",
+        "cep": "22050-001",
+        "geo": {
+          "lat": -22.969731,
+          "lng": -43.185070
+        }
+      },
+      "imagem_url": [
+        "https://cdn1.vectorstock.com/i/1000x1000/38/25/cartoon-hospital-building-emergency-clinic-vector-24613825.jpg"
+      ],
+      "contato": {
+        "telefone": "2122223333",
+        "website": "https://www.clinicavidasaudavel.com.br/"
+      },
+      "especialidades": [
+        "Nutrição",
+        "Fisioterapia",
+        "Psicologia"
+      ],
+      "convenios_aceitos": [
+        "Bradesco Saúde",
+        "Unimed"
+      ],
+      "avaliacao": 4.9
+    },
+    {
+      "id": 9,
+      "nome": "São João",
+      "titulo": "Hospital",
+      "endereco": {
+        "numero": "200",
+        "rua": "R. da Saúde",
+        "bairro": "Vila Mariana",
+        "cidade": "São Paulo",
+        "uf": "SP",
+        "cep": "04144-000",
+        "geo": {
+          "lat": -23.608765,
+          "lng": -46.632954
+        }
+      },
+      "imagem_url": [
+        "https://cdn1.vectorstock.com/i/1000x1000/38/25/cartoon-hospital-building-emergency-clinic-vector-24613825.jpg"
+      ],
+      "contato": {
+        "telefone": "1123456789",
+        "website": "https://www.hospitalsaojoao.com.br/"
+      },
+      "especialidades": [
+        "Ortopedia",
+        "Pediatria",
+        "Cirurgia"
+      ],
+      "convenios_aceitos": [
+        "Amil",
+        "Unimed"
+      ],
+      "avaliacao": 4.6
+    },
+    {
+      "id": 10,
+      "nome": "Bem Viver",
+      "titulo": "Clínica de Saúde",
+      "endereco": {
+        "numero": "100",
+        "rua": "Av. Paulista",
+        "bairro": "Jardins",
+        "cidade": "São Paulo",
+        "uf": "SP",
+        "cep": "01400-000",
+        "geo": {
+          "lat": -23.566248,
+          "lng": -46.653804
+        }
+      },
+      "imagem_url": [
+        "https://cdn1.vectorstock.com/i/1000x1000/38/25/cartoon-hospital-building-emergency-clinic-vector-24613825.jpg"
+      ],
+      "contato": {
+        "telefone": "1133225544",
+        "website": "https://www.clinicabemviver.com.br/"
+      },
+      "especialidades": [
+        "Clínica Geral",
+        "Psicologia",
+        "Nutrição"
+      ],
+      "convenios_aceitos": [
+        "SulAmérica Saúde",
+        "Golden Cross"
+      ],
+      "avaliacao": 4.4
+    },
+    {
+      "id": 11,
+      "nome": "São Lucas",
+      "titulo": "Clínica Médica",
+      "endereco": {
+        "numero": "789",
+        "rua": "R. da Saúde",
+        "bairro": "Vila Mariana",
+        "cidade": "São Paulo",
+        "uf": "SP",
+        "cep": "04144-000",
+        "geo": {
+          "lat": -23.608765,
+          "lng": -46.632954
+        }
+      },
+      "imagem_url": [
+        "https://static.vecteezy.com/ti/vetor-gratis/p1/7323425-o-hospital-edificio-e-profissional-medico-centro-moderno-hospital-hospital-ao-ar-livre-profissional-medico-na-clinica-pano-de-fundo-plano-cartoon-ilustracao-vetor.jpg"
+      ],
+      "contato": {
+        "telefone": "1123456789",
+        "website": "https://www.clinicasaolucas.com.br/"
+      },
+      "especialidades": [
+        "Clínica Geral",
+        "Cardiologia",
+        "Oncologia"
+      ],
+      "convenios_aceitos": [
+        "Amil",
+        "Unimed"
+      ],
+      "avaliacao": 4.3
+    },
+    {
+      "id": 12,
+      "nome": "São José",
+      "titulo": "Hospital",
+      "endereco": {
+        "numero": "1500",
+        "rua": "Av. Liberdade",
+        "bairro": "Liberdade",
+        "cidade": "São Paulo",
+        "uf": "SP",
+        "cep": "01502-001",
+        "geo": {
+          "lat": -23.559946,
+          "lng": -46.634545
+        }
+      },
+      "imagem_url": [
+        "https://static.vecteezy.com/ti/vetor-gratis/p1/7323425-o-hospital-edificio-e-profissional-medico-centro-moderno-hospital-hospital-ao-ar-livre-profissional-medico-na-clinica-pano-de-fundo-plano-cartoon-ilustracao-vetor.jpg"
+      ],
+      "contato": {
+        "telefone": "1122223333",
+        "website": "https://www.hospitalsaojose.com.br/"
+      },
+      "especialidades": [
+        "Cirurgia",
+        "Ortopedia",
+        "Neurologia"
+      ],
+      "convenios_aceitos": [
+        "SulAmérica Saúde",
+        "Golden Cross"
+      ],
+      "avaliacao": 4.7
+    },
+    {
+      "id": 13,
+      "nome": "Bem Saúde",
+      "titulo": "Clínica de Saúde",
+      "endereco": {
+        "numero": "300",
+        "rua": "Av. Paulista",
+        "bairro": "Jardins",
+        "cidade": "São Paulo",
+        "uf": "SP",
+        "cep": "01400-000",
+        "geo": {
+          "lat": -23.566248,
+          "lng": -46.653804
+        }
+      },
+      "imagem_url": [
+        "https://static.vecteezy.com/ti/vetor-gratis/p1/7323425-o-hospital-edificio-e-profissional-medico-centro-moderno-hospital-hospital-ao-ar-livre-profissional-medico-na-clinica-pano-de-fundo-plano-cartoon-ilustracao-vetor.jpg"
+      ],
+      "contato": {
+        "telefone": "1133225544",
+        "website": "https://www.clinicabemsaude.com.br/"
+      },
+      "especialidades": [
+        "Clínica Geral",
+        "Nutrição",
+        "Psicologia"
+      ],
+      "convenios_aceitos": [
+        "Bradesco Saúde",
+        "Amil"
+      ],
+      "avaliacao": 4.5
+    },
+    {
+      "id": 14,
+      "nome": "Nossa Senhora",
+      "titulo": "Hospital",
+      "endereco": {
+        "numero": "200",
+        "rua": "R. da Saúde",
+        "bairro": "Vila Mariana",
+        "cidade": "São Paulo",
+        "uf": "SP",
+        "cep": "04144-000",
+        "geo": {
+          "lat": -23.608765,
+          "lng": -46.632954
+        }
+      },
+      "imagem_url": [
+        "https://static.vecteezy.com/ti/vetor-gratis/p1/7323425-o-hospital-edificio-e-profissional-medico-centro-moderno-hospital-hospital-ao-ar-livre-profissional-medico-na-clinica-pano-de-fundo-plano-cartoon-ilustracao-vetor.jpg"
+      ],
+      "contato": {
+        "telefone": "1123456789",
+        "website": "https://www.hospitalnossasenhora.com.br/"
+      },
+      "especialidades": [
+        "Pediatria",
+        "Cirurgia",
+        "Ginecologia"
+      ],
+      "convenios_aceitos": [
+        "Amil",
+        "Unimed"
+      ],
+      "avaliacao": 4.4
+    },
+    {
+      "id": 15,
+      "nome": "Viver Bem",
+      "titulo": "Clínica de Saúde",
+      "endereco": {
+        "numero": "100",
+        "rua": "Av. Paulista",
+        "bairro": "Jardins",
+        "cidade": "São Paulo",
+        "uf": "SP",
+        "cep": "01400-000",
+        "geo": {
+          "lat": -23.566248,
+          "lng": -46.653804
+        }
+      },
+      "imagem_url": [
+        "https://static.vecteezy.com/ti/vetor-gratis/p1/7323425-o-hospital-edificio-e-profissional-medico-centro-moderno-hospital-hospital-ao-ar-livre-profissional-medico-na-clinica-pano-de-fundo-plano-cartoon-ilustracao-vetor.jpg"
+      ],
+      "contato": {
+        "telefone": "1133225544",
+        "website": "https://www.clinicaviverbem.com.br/"
+      },
+      "especialidades": [
+        "Clínica Geral",
+        "Psicologia",
+        "Nutrição"
+      ],
+      "convenios_aceitos": [
+        "SulAmérica Saúde",
+        "Golden Cross"
+      ],
+      "avaliacao": 4.6
+    },
+    {
+      "id": 16,
+      "nome": "São Marcos",
+      "titulo": "Hospital",
+      "endereco": {
+        "numero": "1200",
+        "rua": "R. dos Santos",
+        "bairro": "Jardins",
+        "cidade": "São Paulo",
+        "uf": "SP",
+        "cep": "01418-000",
+        "geo": {
+          "lat": -23.576481,
+          "lng": -46.666124
+        }
+      },
+      "imagem_url": [
+        "https://static.vecteezy.com/ti/vetor-gratis/p1/7323425-o-hospital-edificio-e-profissional-medico-centro-moderno-hospital-hospital-ao-ar-livre-profissional-medico-na-clinica-pano-de-fundo-plano-cartoon-ilustracao-vetor.jpg"
+      ],
+      "contato": {
+        "telefone": "1123456789",
+        "website": "https://www.hospitalsaomarcos.com.br/"
+      },
+      "especialidades": [
+        "Cardiologia",
+        "Ortopedia",
+        "Oncologia"
+      ],
+      "convenios_aceitos": [
+        "Amil",
+        "Unimed"
+      ],
+      "avaliacao": 4.8
+    },
+    {
+      "id": 17,
+      "nome": "do Bem-Estar",
+      "titulo": "Clínica de Saúde",
+      "endereco": {
+        "numero": "500",
+        "rua": "Av. Ipiranga",
+        "bairro": "Centro",
+        "cidade": "São Paulo",
+        "uf": "SP",
+        "cep": "01046-010",
+        "geo": {
+          "lat": -23.547733,
+          "lng": -46.645634
+        }
+      },
+      "imagem_url": [
+        "https://static.vecteezy.com/ti/vetor-gratis/p1/7323425-o-hospital-edificio-e-profissional-medico-centro-moderno-hospital-hospital-ao-ar-livre-profissional-medico-na-clinica-pano-de-fundo-plano-cartoon-ilustracao-vetor.jpg"
+      ],
+      "contato": {
+        "telefone": "1122334455",
+        "website": "https://www.clinicadobemestar.com.br/"
+      },
+      "especialidades": [
+        "Clínica Geral",
+        "Dermatologia",
+        "Psiquiatria"
+      ],
+      "convenios_aceitos": [
+        "Bradesco Saúde",
+        "Amil"
+      ],
+      "avaliacao": 4.7
+    },
+    {
+      "id": 18,
+      "nome": "São Francisco",
+      "titulo": "Hospital",
+      "endereco": {
+        "numero": "1600",
+        "rua": "Av. Sumaré",
+        "bairro": "Perdizes",
+        "cidade": "São Paulo",
+        "uf": "SP",
+        "cep": "05016-000",
+        "geo": {
+          "lat": -23.542376,
+          "lng": -46.673363
+        }
+      },
+      "imagem_url": [
+        "https://static.vecteezy.com/ti/vetor-gratis/p1/7323425-o-hospital-edificio-e-profissional-medico-centro-moderno-hospital-hospital-ao-ar-livre-profissional-medico-na-clinica-pano-de-fundo-plano-cartoon-ilustracao-vetor.jpg"
+      ],
+      "contato": {
+        "telefone": "1123456789",
+        "website": "https://www.hospitalsaofrancisco.com.br/"
+      },
+      "especialidades": [
+        "Cirurgia",
+        "Neurologia",
+        "Oftalmologia"
+      ],
+      "convenios_aceitos": [
+        "SulAmérica Saúde",
+        "Golden Cross"
+      ],
+      "avaliacao": 4.9
+    },
+    {
+      "id": 19,
+      "nome": "Bem-Estar Total",
+      "titulo": "Clínica de Saúde",
+      "endereco": {
+        "numero": "400",
+        "rua": "Av. Paulista",
+        "bairro": "Jardins",
+        "cidade": "São Paulo",
+        "uf": "SP",
+        "cep": "01400-000",
+        "geo": {
+          "lat": -23.566248,
+          "lng": -46.653804
+        }
+      },
+      "imagem_url": [
+        "https://media.istockphoto.com/id/680135472/pt/vetorial/hospital-building-cartoon-modern-vector-illustration-medical-clinic-and-city-background.jpg?s=1024x1024&w=is&k=20&c=AYuEInWyil2I9Ju7k7xX5YCSuuApcU1QYqfsYENabgU="
+      ],
+      "contato": {
+        "telefone": "1133225544",
+        "website": "https://www.clinicabemestartotal.com.br/"
+      },
+      "especialidades": [
+        "Clínica Geral",
+        "Nutrição",
+        "Psicologia"
+      ],
+      "convenios_aceitos": [
+        "Bradesco Saúde",
+        "Amil"
+      ],
+      "avaliacao": 4.6
+    },
+    {
+      "id": 20,
+      "nome": "da Saúde",
+      "titulo": "Hospital",
+      "endereco": {
+        "numero": "1800",
+        "rua": "R. das Oliveiras",
+        "bairro": "Jardins",
+        "cidade": "São Paulo",
+        "uf": "SP",
+        "cep": "01418-001",
+        "geo": {
+          "lat": -23.576481,
+          "lng": -46.666124
+        }
+      },
+      "imagem_url": [
+        "https://static.vecteezy.com/ti/vetor-gratis/p1/7323425-o-hospital-edificio-e-profissional-medico-centro-moderno-hospital-hospital-ao-ar-livre-profissional-medico-na-clinica-pano-de-fundo-plano-cartoon-ilustracao-vetor.jpg"
+      ],
+      "contato": {
+        "telefone": "1123456789",
+        "website": "https://www.hospitaldasaude.com.br/"
+      },
+      "especialidades": [
+        "Cardiologia",
+        "Ortopedia",
+        "Oncologia"
+      ],
+      "convenios_aceitos": [
+        "Amil",
+        "Unimed"
+      ],
+      "avaliacao": 4.8
+    },
+    {
+      "id": 21,
+      "nome": "Rio Saúde",
+      "titulo": "Clínica Médica",
+      "endereco": {
+        "numero": "123",
+        "rua": "Av. Copacabana",
+        "bairro": "Copacabana",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ",
+        "cep": "22050-001",
+        "geo": {
+          "lat": -22.969731,
+          "lng": -43.185070
+        }
+      },
+      "imagem_url": [
+        "https://media.istockphoto.com/id/680135472/pt/vetorial/hospital-building-cartoon-modern-vector-illustration-medical-clinic-and-city-background.jpg?s=1024x1024&w=is&k=20&c=AYuEInWyil2I9Ju7k7xX5YCSuuApcU1QYqfsYENabgU="
+      ],
+      "contato": {
+        "telefone": "2122223333",
+        "website": "https://www.clinicariosaude.com.br/"
+      },
+      "especialidades": [
+        "Clínica Geral",
+        "Dermatologia",
+        "Pediatria"
+      ],
+      "convenios_aceitos": [
+        "Bradesco Saúde",
+        "Unimed"
+      ],
+      "avaliacao": 4.5
+    },
+    {
+      "id": 22,
+      "nome": "São Pedro",
+      "titulo": "Hospital",
+      "endereco": {
+        "numero": "800",
+        "rua": "R. das Palmeiras",
+        "bairro": "Botafogo",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ",
+        "cep": "22270-070",
+        "geo": {
+          "lat": -22.952615,
+          "lng": -43.190211
+        }
+      },
+      "imagem_url": [
+        "https://img.freepik.com/vetores-premium/edificio-do-hospital-para-ilustracao-vetorial-de-fundo-de-desenhos-animados-de-saude-com-ambulancia-medico-paciente-enfermeiras-e-exterior-da-clinica-medica_2175-1510.jpg"
+      ],
+      "contato": {
+        "telefone": "2123456789",
+        "website": "https://www.hospitalsaopedro.com.br/"
+      },
+      "especialidades": [
+        "Cirurgia",
+        "Ortopedia",
+        "Ginecologia"
+      ],
+      "convenios_aceitos": [
+        "Amil",
+        "Unimed"
+      ],
+      "avaliacao": 4.7
+    },
+    {
+      "id": 23,
+      "nome": "Vida Plena",
+      "titulo": "Clínica de Saúde",
+      "endereco": {
+        "numero": "400",
+        "rua": "Av. Atlântica",
+        "bairro": "Copacabana",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ",
+        "cep": "22010-000",
+        "geo": {
+          "lat": -22.972388,
+          "lng": -43.185695
+        }
+      },
+      "imagem_url": [
+        "https://media.istockphoto.com/id/688337988/es/vector/edificio-sistema-de-salud-centro-m%C3%A9dico-con-todos-los-departamentos-del-hospital-moderno.jpg?s=612x612&w=0&k=20&c=kJJn_LHTWgWF7YaoADqds2fJxHYWZCEzNcx_BHQe2Yw="
+      ],
+      "contato": {
+        "telefone": "2122334455",
+        "website": "https://www.clinicavidaplena.com.br/"
+      },
+      "especialidades": [
+        "Clínica Geral",
+        "Nutrição",
+        "Psicologia"
+      ],
+      "convenios_aceitos": [
+        "Bradesco Saúde",
+        "Amil"
+      ],
+      "avaliacao": 4.6
+    },
+    {
+      "id": 24,
+      "nome": "da Esperança",
+      "titulo": "Hospital",
+      "endereco": {
+        "numero": "1500",
+        "rua": "R. da Lapa",
+        "bairro": "Lapa",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ",
+        "cep": "20021-180",
+        "geo": {
+          "lat": -22.913153,
+          "lng": -43.184321
+        }
+      },
+      "imagem_url": [
+        "https://i.pinimg.com/originals/86/15/47/861547d6b20eedd16ab36dc108f44254.jpg"
+      ],
+      "contato": {
+        "telefone": "2123456789",
+        "website": "https://www.hospitalesperanca.com.br/"
+      },
+      "especialidades": [
+        "Pediatria",
+        "Oncologia",
+        "Cardiologia"
+      ],
+      "convenios_aceitos": [
+        "Amil",
+        "Unimed"
+      ],
+      "avaliacao": 4.8
+    },
+    {
+      "id": 25,
+      "nome": "do Bem-Estar RJ",
+      "titulo": "Clínica de Saúde",
+      "endereco": {
+        "numero": "500",
+        "rua": "Av. Copacabana",
+        "bairro": "Copacabana",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ",
+        "cep": "22010-000",
+        "geo": {
+          "lat": -22.972801,
+          "lng": -43.185484
+        }
+      },
+      "imagem_url": [
+        "https://static.vecteezy.com/ti/vetor-gratis/p1/7323425-o-hospital-edificio-e-profissional-medico-centro-moderno-hospital-hospital-ao-ar-livre-profissional-medico-na-clinica-pano-de-fundo-plano-cartoon-ilustracao-vetor.jpg"
+      ],
+      "contato": {
+        "telefone": "2122334455",
+        "website": "https://www.clinicadobemestarrj.com.br/"
+      },
+      "especialidades": [
+        "Clínica Geral",
+        "Dermatologia",
+        "Nutrição"
+      ],
+      "convenios_aceitos": [
+        "Bradesco Saúde",
+        "Amil"
+      ],
+      "avaliacao": 4.7
+    },
+    {
+      "id": 26,
+      "nome": "da Saúde Carioca",
+      "titulo": "Hospital",
+      "endereco": {
+        "numero": "1800",
+        "rua": "R. dos Santos",
+        "bairro": "Centro",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ",
+        "cep": "20010-010",
+        "geo": {
+          "lat": -22.906260,
+          "lng": -43.180964
+        }
+      },
+      "imagem_url": [
+        "https://img.freepik.com/vetores-premium/edificio-do-hospital-para-ilustracao-vetorial-de-fundo-de-desenhos-animados-de-saude-com-ambulancia-medico-paciente-enfermeiras-e-exterior-da-clinica-medica_2175-1510.jpg"
+      ],
+      "contato": {
+        "telefone": "2123456789",
+        "website": "https://www.hospitaldasaudecarioca.com.br/"
+      },
+      "especialidades": [
+        "Cardiologia",
+        "Ortopedia",
+        "Ginecologia"
+      ],
+      "convenios_aceitos": [
+        "Amil",
+        "Unimed"
+      ],
+      "avaliacao": 4.9
+    },
+    {
+      "id": 27,
+      "nome": "Cuidar Bem RJ",
+      "titulo": "Clínica de Saúde",
+      "endereco": {
+        "numero": "400",
+        "rua": "Av. Atlântica",
+        "bairro": "Copacabana",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ",
+        "cep": "22010-000",
+        "geo": {
+          "lat": -22.972388,
+          "lng": -43.185695
+        }
+      },
+      "imagem_url": [
+        "https://i.pinimg.com/originals/86/15/47/861547d6b20eedd16ab36dc108f44254.jpg"
+      ],
+      "contato": {
+        "telefone": "2122334455",
+        "website": "https://www.clinicacuidarbemrj.com.br/"
+      },
+      "especialidades": [
+        "Clínica Geral",
+        "Nutrição",
+        "Psicologia"
+      ],
+      "convenios_aceitos": [
+        "Bradesco Saúde",
+        "Amil"
+      ],
+      "avaliacao": 4.6
+    },
+    {
+      "id": 28,
+      "nome": "dos Anjos",
+      "titulo": "Hospital",
+      "endereco": {
+        "numero": "1500",
+        "rua": "R. da Lapa",
+        "bairro": "Lapa",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ",
+        "cep": "20021-180",
+        "geo": {
+          "lat": -22.913153,
+          "lng": -43.184321
+        }
+      },
+      "imagem_url": [
+        "https://static.vecteezy.com/ti/vetor-gratis/p1/7323425-o-hospital-edificio-e-profissional-medico-centro-moderno-hospital-hospital-ao-ar-livre-profissional-medico-na-clinica-pano-de-fundo-plano-cartoon-ilustracao-vetor.jpg"
+      ],
+      "contato": {
+        "telefone": "2123456789",
+        "website": "https://www.hospitaldosanjos.com.br/"
+      },
+      "especialidades": [
+        "Pediatria",
+        "Oncologia",
+        "Cardiologia"
+      ],
+      "convenios_aceitos": [
+        "Amil",
+        "Unimed"
+      ],
+      "avaliacao": 4.8
+    },
+    {
+      "id": 29,
+      "nome": "Bem Carioca",
+      "titulo": "Clínica de Saúde",
+      "endereco": {
+        "numero": "500",
+        "rua": "Av. Copacabana",
+        "bairro": "Copacabana",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ",
+        "cep": "22010-000",
+        "geo": {
+          "lat": -22.972801,
+          "lng": -43.185484
+        }
+      },
+      "imagem_url": [
+        "https://media.istockphoto.com/id/688337988/es/vector/edificio-sistema-de-salud-centro-m%C3%A9dico-con-todos-los-departamentos-del-hospital-moderno.jpg?s=612x612&w=0&k=20&c=kJJn_LHTWgWF7YaoADqds2fJxHYWZCEzNcx_BHQe2Yw="
+      ],
+      "contato": {
+        "telefone": "2122334455",
+        "website": "https://www.clinicabemcarioca.com.br/"
+      },
+      "especialidades": [
+        "Clínica Geral",
+        "Dermatologia",
+        "Nutrição"
+      ],
+      "convenios_aceitos": [
+        "Bradesco Saúde",
+        "Amil"
+      ],
+      "avaliacao": 4.7
+    },
+    {
+      "id": 30,
+      "nome": "da Cidade Maravilhosa",
+      "titulo": "Hospital",
+      "endereco": {
+        "numero": "1800",
+        "rua": "R. dos Santos",
+        "bairro": "Centro",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ",
+        "cep": "20010-010",
+        "geo": {
+          "lat": -22.906260,
+          "lng": -43.180964
+        }
+      },
+      "imagem_url": [
+        "https://i.pinimg.com/originals/86/15/47/861547d6b20eedd16ab36dc108f44254.jpg"
+      ],
+      "contato": {
+        "telefone": "2123456789",
+        "website": "https://www.hospitalcidademaravilhosa.com.br/"
+      },
+      "especialidades": [
+        "Cardiologia",
+        "Ortopedia",
+        "Ginecologia"
+      ],
+      "convenios_aceitos": [
+        "Amil",
+        "Unimed"
+      ],
+      "avaliacao": 4.9
+    }
+  ]
+}
